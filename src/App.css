@@ -1,0 +1,22 @@
+.header-main{  
+  background-color: #fcb503;
+  padding: 5px 5px;
+  display: grid;
+  grid-template-columns: auto 3fr 4fr;
+}
+
+.logoutDiv {
+  display: inline-block;
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+#logoImg, #appTitle{
+  display: inline-block;
+  margin: auto 0;
+}
+.userNameTxt{
+  color: white;
+  font-weight: bold;
+  padding-right: 5px;
+}
+

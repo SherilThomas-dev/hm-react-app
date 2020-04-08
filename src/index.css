@@ -1,0 +1,52 @@
+*{    
+    box-sizing: border-box;
+}
+#root,html,body,.App{
+    height: 100%;
+}
+
+#loginbody {
+    align-items: center;
+    border: 1px;
+    text-align: center;
+    height: 15vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: coral;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.main{
+    height: 100vh;
+    border: 1px solid #ccc;
+    display: flex;
+    font-family: sans-serif;
+    align-items:center;
+    justify-content:center;
+}
+
+.login_form{
+    width: 500px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-success{
+   width: 150px;
+}
+
+.login_btn{
+    text-align: center;
+    margin: 10px 0;
+}
